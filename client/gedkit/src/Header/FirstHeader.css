@@ -1,0 +1,58 @@
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: #6A6A6A;
+  }
+
+  .nav-links li {
+    margin-right: 20px;
+    list-style-type: none; /* Elimina los puntos de la lista */
+    transition: box-shadow 0.3s, border-radius 0.3s; /* Agrega una transición suave */
+    border-radius: 10px; /* Ajusta el radio de las esquinas para que sean redondas */
+    padding: 10px; /* Aumenta el tamaño del contenedor */
+  }
+
+    /* Aplica la sombra al pasar el ratón por encima */
+  .nav-links li:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4); /* Ajusta el tamaño y el color de la sombra */
+    border-radius: 50%; /* Hace que el elemento sea circular */
+  }
+  
+  .auth-links a {
+    margin-left: 20px;
+    text-decoration: none; /* Elimina la línea subrayada */
+  }
+
+  .logo {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+
+  .logo img {
+    height: 40px;
+    margin-right: 10px; /* Agrega un espacio entre la imagen y el texto */
+  }
+
+  .site-name {
+    font-size: 20px; /* Tamaño del texto del nombre del sitio */
+    font-weight: bold; /* Negrita */
+    color: #ff7f00;
+  }
+
+  
+  

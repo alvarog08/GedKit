@@ -1,0 +1,26 @@
+/* App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% de la altura de la ventana */
+  width: 100vw; /* 100% del ancho de la ventana */
+  background-color: #ffffff; /* Fondo blanco */
+}
+
+.loading-text {
+  font-weight: bold;
+  font-size: 4.5vh; /* Tamaño de fuente responsivo */
+  margin-bottom: 5vh; /* Ajusta el espacio entre el texto y la imagen */
+}
+
+.loading-image {
+  max-width: 45vw; /* Tamaño máximo de la imagen responsivo */
+  max-height: 45vh; /* Tamaño máximo de la imagen responsivo */
+}
