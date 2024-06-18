@@ -2,3 +2,10 @@
     text-align: center;
     margin: 20px;
 }
+
+.lineaSeparadora {
+    width: 100%;
+    height: 1px; /* Ajusta el grosor de la línea si es necesario */
+    background-color: #e5e7eb;
+    margin: 2rem 0; /* Ajusta el margen si es necesario */
+  }

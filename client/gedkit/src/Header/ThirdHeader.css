@@ -1,0 +1,45 @@
+.third-header {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 calc(16.66% - 1rem); /* Ajusta el ancho de cada servicio para que se distribuyan equitativamente */
+    margin: 0.5rem;
+  }
+  
+  .icon-bg {
+    background-color: #F3F4F6;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    height: 2rem;
+    width: 2rem;
+    color: #6B7280; /* Color más claro para los iconos */
+  }
+  
+  .service-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6B7280;
+    text-align: center;
+  }
+  
