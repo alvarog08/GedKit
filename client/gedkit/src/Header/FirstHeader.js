@@ -1,6 +1,8 @@
 import React from 'react';
 import './FirstHeader.css'; // Importa el archivo CSS
-import logoProvisional from '../assets/logoProvisional.png';
+import logoProvisional from '../assets/Header/logoProvisional.png';
+import hamburguerMenu from '../assets/Header/hamburguerMenu.png';
+import perfilAnonimo from '../assets/Header/perfilAnonimo.png';
 
 const FirstHeader = () => {
   return (
@@ -13,16 +15,17 @@ const FirstHeader = () => {
         <span className="site-name">GedKit</span> {/* Agrega el nombre del sitio */}
       </div>
 
-      <ul className="nav-links">
-        <li><a href="#">Alojamientos</a></li>
-        <li><a href="#">Experiencias</a></li>
-        <li><a href="#">Lugares</a></li>
-      </ul>
+      {/* Aquí colocamos el elemento pulsable */}
+      <div className="ofreceServicios">
+        <span className="pulsable">Ofrece tus servicios</span> {/* Usamos un span como elemento pulsable */}
+      </div>
 
       {/* Aquí puedes colocar opciones de inicio de sesión y registro */}
       <div className="auth-links">
-        <a href="#">Iniciar sesión</a>
-        <a href="#">Registrarse</a>
+        <button className="buttonInicial">
+            <img src={hamburguerMenu} width={40} height={40} alt=""/>
+            <img src={perfilAnonimo} width={40} height={40} alt=""/>
+        </button>
       </div>
 
     </nav>

@@ -8,34 +8,25 @@
   .logo img {
     height: 40px;
   }
-  
-  .nav-links {
-    list-style: none;
+
+    /* Estilos para el elemento pulsable */
+  .ofreceServicios {
     display: flex;
   }
 
-  .nav-links a {
-    text-decoration: none; /* Elimina la línea subrayada */
+  /* Estilos para el texto pulsable */
+  .pulsable {
+    font-size: 20px; /* Tamaño del texto */
     color: #6A6A6A;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 30px; /* Espaciado interno */
+    border-radius: 20px;
   }
 
-  .nav-links li {
-    margin-right: 20px;
-    list-style-type: none; /* Elimina los puntos de la lista */
-    transition: box-shadow 0.3s, border-radius 0.3s; /* Agrega una transición suave */
-    border-radius: 10px; /* Ajusta el radio de las esquinas para que sean redondas */
-    padding: 10px; /* Aumenta el tamaño del contenedor */
-  }
-
-    /* Aplica la sombra al pasar el ratón por encima */
-  .nav-links li:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4); /* Ajusta el tamaño y el color de la sombra */
-    border-radius: 50%; /* Hace que el elemento sea circular */
-  }
-  
-  .auth-links a {
-    margin-left: 20px;
-    text-decoration: none; /* Elimina la línea subrayada */
+  /* Cambio de color de fondo al pasar el ratón por encima */
+  .pulsable:hover {
+    background-color: #DDDDDD;
   }
 
   .logo {
@@ -54,5 +45,21 @@
     color: #ff7f00;
   }
 
+    /* Estilos para el botón */
+  .buttonInicial {
+    /* Estilos comunes */
+    background-color: white; /* Fondo blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Transición de la sombra y del color del borde */
+    outline: none; /* Quita el contorno al hacer clic */
+    cursor: pointer; /* Cursor de puntero */
+    border: 1px solid #ccc; /* Borde gris */
+  }
+
+  .buttonInicial:hover {
+    box-shadow: 0 4px 8px rgba(221, 221, 221, 0.5); /* Sombra al pasar el ratón */
+    border-color: #ccc; /* Color del borde al pasar el ratón */
+  }
   
   
